@@ -19,7 +19,7 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.compose.ui.unit.dp
 
-@Composable
+/*@Composable
 fun WellnessTaskItem(taskName: String, onClose: () -> Unit, modifier: Modifier = Modifier) {
     var checkedState by rememberSaveable { mutableStateOf(false) }
 
@@ -30,7 +30,7 @@ fun WellnessTaskItem(taskName: String, onClose: () -> Unit, modifier: Modifier =
         onClose = onClose,
         modifier = modifier
     )
-}
+}*/
 
 @Composable
 fun WellnessTaskItem(
@@ -50,6 +50,9 @@ fun WellnessTaskItem(
                 .weight(1f)
                 .padding(start = 10.dp)
         )
+        //checkbox element returns boolean in onCheckedChange method,
+        // no need to pass boolean explicitly
+        //Checkbox(checked = checked, onCheckedChange = { onCheckedChanged(!checked) })
         Checkbox(checked = checked, onCheckedChange = onCheckedChanged)
         IconButton(onClick = onClose) {
             Icon(imageVector = Icons.Default.Clear, contentDescription = "Close")

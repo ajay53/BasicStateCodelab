@@ -13,3 +13,5 @@ o
 ?app/src/main/java/com/example/basicstatecodelab/WellnessTask.kt,e/5/e5a9c2ffaaeb06ae8e81ae225cdae13615885e96
 t
 Dapp/src/main/java/com/example/basicstatecodelab/WellnessViewModel.kt,9/8/98ba73f6f30a0800b344968fc3b355ea70816990
+D
+app/build.gradle.kts,d/2/d2a4383452aad84a18429a5844d31330a012a9e6

@@ -1,3 +1,5 @@
 
-=kotlin:S125	"Remove this commented out code.(ƒÕ¢¡8Ş¢“¶1
-9kotlin:S1128"Remove this unused import.(ÀÄ8á¢“¶1
+Ukotlin:S1172"6Remove this unused function parameter "onCheckedTask".(¡Ÿœ´8úÏïÄ·1
+^kotlin:S1172":Use "_" instead of this unused lambda parameter "checked".(âƒû»şÿÿÿÿ8©‡îÇ·1
+=kotlin:S125	"Remove this commented out code.(ƒÕ¢¡8üÏïÄ·1
+9kotlin:S1128"Remove this unused import.(ÀÄ8şÏïÄ·1
